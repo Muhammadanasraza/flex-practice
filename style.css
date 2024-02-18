@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin-right: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+    
+    display: flex;
+    
+   flex-direction: row;
+   justify-content: space-evenly;
+    height: 255px;
+    width: 100%;
+    
+}
+
+.cardparent1{
+    background-color: rgba(217, 94, 32, 0.966);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    height: 250px;
+    width: 498px;
+   
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+    
+   
+}
+/* child-parent */
+.child-parent{
+    display: flex;
+    
+    justify-content: space-around;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.child-parent-item1{
+    background-color: rgba(255, 178, 90, 0.922);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    height: 60px;
+    width: 155px;
+   
+}
+
+/* child-parent-second */
+.child-parent-second{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.child-parent-item1-2{
+    background-color: rgba(255, 178, 90, 0.922);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    height: 60px;
+    width: 115px;
+   
+}
+/* child-parent-third */
+.child-parent-third{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+   position: relative;
+}
+
+.child-parent-item1-3{
+    background-color: rgba(255, 178, 90, 0.922);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    height: 60px;
+    width: 90px;
+    
+   
+}
+
+
+
+.cardparent2{
+    background-color: rgba(217, 94, 32, 0.966);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    height: 250px;
+    width: 498px;;
+}
+.cardparent3{
+    background-color: rgba(217, 94, 32, 0.966);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    height: 250px;
+    width: 498px;
+}
+/* ,........ */
+.second-sec{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 0px 5px;
+
+}
+.s-carparent{
+    background-color: rgba(217, 94, 32, 0.966);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    height: 60px;
+    width: 375px;
+}
+
+/* ,....... */
+
+.second-third{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px 5px;
+    
+    }
+
+.s-carparent2{
+    background-color: rgba(217, 94, 32, 0.966);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    height: 60px;
+    width: 300px;
+}
